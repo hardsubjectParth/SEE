@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.see"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 37
         versionCode = 1
         versionName = "1.0"
@@ -51,4 +51,5 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+    implementation("audio.soniqo:speech:0.0.17")
 }
